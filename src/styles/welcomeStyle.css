@@ -1,16 +1,21 @@
 body{
     background-image: url("../media/background.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 ul{
     list-style: none;
     display: flex;
-    gap: 5px;
+    gap: 35px;
+    justify-content: center;
 }
 
 .header{
-    height: 20%;
+    height: 30vh;
+    padding: 15px;
     background-color: black;
     filter: opacity(80%);
     color: white;
@@ -23,4 +28,10 @@ ul{
 
 .navElement{
     font-size: 2rem;
+}
+.navElement:hover{
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    zoom: 1.2;
+    filter: opacity(70%);
 }
