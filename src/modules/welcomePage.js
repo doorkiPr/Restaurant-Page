@@ -10,11 +10,19 @@ function loadHeader() {
     const navElementMenu = document.createElement("li");
     const navElementContact = document.createElement("li");
 
-    title.textContent="My Restaurant";
+    header.classList.toggle("header");
+    title.classList.toggle("title");
+    navbar.classList.toggle("navbar");
+    navlist.classList.toggle("navlist");
+    navElementHome.classList.toggle("navElement");
+    navElementMenu.classList.toggle("navElement");
+    navElementContact.classList.toggle("navElement");
 
-    navElementHome.textContent ="Home";
-    navElementMenu.textContent="Menu";
-    navElementContact.textContent="Contact"
+    title.textContent = "My Restaurant";
+
+    navElementHome.textContent = "Home";
+    navElementMenu.textContent = "Menu";
+    navElementContact.textContent = "Contact"
 
 
     header.appendChild(title);
@@ -32,6 +40,9 @@ function loadHeader() {
 function loadMidSection() {
     const container = document.createElement("div");
     const square = document.createElement("div");
+
+    container.classList.toggle("midContainer");
+    square.classList.toggle("square");
 
     container.appendChild(square);
 
