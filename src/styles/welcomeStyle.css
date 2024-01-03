@@ -2,3 +2,10 @@ body{
     background-image: url("../media/background.jpg");
     background-size: cover;
 }
+
+.header{
+    height: 20%;
+    background-color: black;
+    filter: opacity(80%);
+    color: white;
+}
