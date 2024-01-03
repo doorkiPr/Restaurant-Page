@@ -3,6 +3,12 @@ body{
     background-size: cover;
 }
 
+ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
 .header{
     height: 20%;
     background-color: black;
@@ -13,4 +19,8 @@ body{
 }
 .title{
     font-size: 5rem;
+}
+
+.navElement{
+    font-size: 2rem;
 }
