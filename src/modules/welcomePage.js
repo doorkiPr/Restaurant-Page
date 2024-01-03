@@ -25,4 +25,6 @@ function loadHeader() {
     navlist.appendChild(navElementHome);
     navlist.appendChild(navElementMenu);
     navlist.appendChild(navElementContact);
+
+    content.appendChild(header)
 }
