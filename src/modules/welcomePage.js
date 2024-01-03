@@ -48,3 +48,14 @@ function loadMidSection() {
 
     content.appendChild(container);
 }
+
+function loadFooter() {
+    const container = document.createElement("div");
+    const footerText = document.createElement("div");
+
+    footerText.textContent="some description...";
+
+    container.appendChild(footerText);
+    
+    content.appendChild(container);
+}
