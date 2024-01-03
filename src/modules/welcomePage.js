@@ -53,9 +53,15 @@ function loadFooter() {
     const container = document.createElement("div");
     const footerText = document.createElement("div");
 
-    footerText.textContent="some description...";
+    footerText.textContent = "some description...";
 
     container.appendChild(footerText);
-    
+
     content.appendChild(container);
+}
+
+export default function loadWelcome() {
+    loadHeader();
+    loadMidSection();
+    loadFooter();
 }
