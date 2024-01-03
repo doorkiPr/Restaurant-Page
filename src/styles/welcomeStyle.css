@@ -8,4 +8,9 @@ body{
     background-color: black;
     filter: opacity(80%);
     color: white;
+    display: grid;
+    justify-content: center;
+}
+.title{
+    font-size: 5rem;
 }
