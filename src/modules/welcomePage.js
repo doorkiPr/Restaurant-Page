@@ -28,3 +28,12 @@ function loadHeader() {
 
     content.appendChild(header)
 }
+
+function loadMidSection() {
+    const container = document.createElement("div");
+    const square = document.createElement("div");
+
+    container.appendChild(square);
+
+    content.appendChild(container);
+}
