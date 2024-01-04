@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url("../media/background.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -6,14 +6,14 @@ body{
     background-repeat: no-repeat;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
     gap: 35px;
     justify-content: center;
 }
 
-.header{
+.header {
     height: 30vh;
     padding: 15px;
     background-color: black;
@@ -22,27 +22,53 @@ ul{
     display: grid;
     justify-content: center;
 }
-.title{
+
+.title {
     font-size: 5rem;
 }
 
-.navElement{
+.navElement {
     font-size: 2rem;
 }
-.navElement:hover{
+
+.navElement:hover {
     border-bottom: 1px solid whitesmoke;
     cursor: pointer;
     zoom: 1.2;
     filter: opacity(70%);
 }
-.midContainer{
+
+.midContainer {
     display: grid;
     place-items: center;
 }
-.square{
+
+.square {
     margin: 6rem 0;
+    padding: 25px;
     height: 80vh;
-    width: 700px;
+    max-width: 700px;
     background-color: black;
     filter: opacity(80%);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+}
+
+.squareTitle {
+    font-size: 3.5rem;
+}
+
+.squareDesc {
+    font-size: 2rem;
+    filter: opacity(70%);
+}
+
+.squareImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("../media/chef.jpg");
+    background-size: cover;
 }
