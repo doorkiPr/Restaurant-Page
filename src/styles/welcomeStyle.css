@@ -35,3 +35,14 @@ ul{
     zoom: 1.2;
     filter: opacity(70%);
 }
+.midContainer{
+    display: grid;
+    place-items: center;
+}
+.square{
+    margin: 6rem 0;
+    height: 80vh;
+    width: 700px;
+    background-color: black;
+    filter: opacity(80%);
+}
