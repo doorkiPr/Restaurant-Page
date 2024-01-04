@@ -40,9 +40,23 @@ function loadHeader() {
 function loadMidSection() {
     const container = document.createElement("div");
     const square = document.createElement("div");
+    const squareTitle = document.createElement("div");
+    const squareImg = document.createElement("img");
+    const squareDesc = document.createElement("div");
+
 
     container.classList.toggle("midContainer");
     square.classList.toggle("square");
+    squareTitle.classList.toggle("squareTitle");
+    squareImg.classList.toggle("squareImg");
+    squareDesc.classList.toggle("squareDesc");
+
+    squareTitle.textContent="best restaurant in town";
+    squareDesc.textContent="some description, somme information , check out our menu !"
+
+    square.appendChild(squareTitle);
+    square.appendChild(squareImg);
+    square.appendChild(squareDesc);
 
     container.appendChild(square);
 
